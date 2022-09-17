@@ -4,12 +4,12 @@
   <h3>
   <a 
     [title] =  "product.name + 'details'"
-    [routerlink]="['/products', product.id]">
+    [routerLink]="['/products', product.id]">
     {{product.name}}   
   </a>
 </h3>
 
-<p *ngIf = "product.description">
+<p *ngIf = "product.description">  
  Description: {{product.description}}
 </p>
 
